@@ -39,6 +39,12 @@ function PostItem({ post }) {
       <PostHeader post={post}/>
       <p>{post.content}</p>
       <div className="linhaDivisora"></div>
+        <div className="botoes">
+          <button>Curtir</button>
+          <button>Comentar</button>
+          <button>Compartilhar</button>
+        </div>
+      
       <PostComentario post={post}/>
     </div>
   )

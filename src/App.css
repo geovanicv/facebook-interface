@@ -109,3 +109,17 @@ nav div p {
   background: #e0dfdf;
   margin-top: 20px;
 }
+
+.botoes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.botoes button {
+  width: 300px;
+  height: 30px;
+  font-weight: bold;
+  color: rgb(126, 125, 125);
+  background-color: #fff;
+  border: 0;
+}
